@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+<link rel="apple-touch-icon" type="image/png" href="img/Chadlogo.png" />
+<meta name="apple-mobile-web-app-title" content="MyDawgy">
+
+  <title>MyDawgy Presale</title>
+
+  <link rel="stylesheet" href="index.css">
+
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+<script language="javascript" type="text/javascript" src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+<script language="javascript" type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+</head>
+
+<body translate="no">
+<center>
+<h1><img src="dawgy.jpg" width=5% height=5% /> MyDawgy </h1>
+<h2>The coolest dawgy in town</h2>
+<br>
+<br>one TRILLION token/BNB (0.2 - 5BNB/transaction)
+<br>
+<br>
+<div class="message-box-content" contenteditable="true" placeholder="" id="field-nb"></div>
+<br>
+<button id="btn-buy">
+  <div id="prepare">
+  <span class="text">Connect</span>
+  </div>
+  <div id="connected">
+  <span class="text">Buy</span>
+  </div>
+</button>
+<br>
+<br><div id="token-left"></div> token left in presale.
+
+
+
+<script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
+<script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>

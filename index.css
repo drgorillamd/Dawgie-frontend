@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Montserrat:wght@900&family=Oswald:wght@200;400;500);
+body {
+ background-image: url('bg.jpg');
+ color:#fff;
+ font-family:"Oswald",sans-serif;
+ font-size:32px;
+}
+
+h1 {
+ font-size:2em;
+}
+
+button {
+  height: 100%;
+  width: 100px;
+  border: none;
+text-transform:none
+overflow:visible
+display:inline-flex;
+align-items:center;
+justify-content:center;
+width:fit-content;
+min-width:230px;
+min-height:57px;
+margin:0;
+border-width:2px;
+border-width-hover:2px;
+border-style:solid;
+border-color:rgba(0,0,0,0);
+padding-horizontal:35px;
+padding-vertical:14px;
+text-decoration:none;
+text-transform:uppercase;
+text-align:center;
+border-radius:35px;
+border-radius-hover:35px;
+background-color:#ed1c94;
+color:#fff;
+font-family:"Oswald",sans-serif;
+font-size:16px;
+font-weight:400;
+cursor:pointer;
+outline:none;
+letter-spacing:1.92px;
+background-image:none;
+line-height:1em;
+box-shadow:none;
+text-decoration-hover:none;
+background-color-hover:#981df0;
+color-hover:#fff;
+border-color-hover:#981df0;
+}
+
+button:hover {
+  background-color:#981df0;
+}
+
+.message-box-content {
+    padding: 10px 0;
+    font-family:"Oswald",sans-serif;
+    font-size:16px;
+    font-weight:400;
+    color: #fff;
+    height: 100%;
+    width: 100px;
+    align-items:center;
+    justify-content:center;
+    border-width:2px;
+    border-radius:35px;
+    border-style:solid;
+    border-color: #fff;
+  }
+
+.message-box-content::before {
+    content: "Amount (BNB) ?";
+    color: #999999;
+  }
+.message-box-content:not(:empty)::before {
+    content: "";
+    color: #fff;
+  }
+
+.message-box-content:focus {
+    outline: none;
+    color: #fff;
+  }
+.message-box-content:focus::before {
+    color: #bdc1c9;
+    content:"";
+  }
+}
