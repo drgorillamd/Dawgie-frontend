@@ -1,1 +1,0 @@
-MyDawgie Presale frontend - minimalist
